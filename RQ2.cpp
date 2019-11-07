@@ -1,4 +1,4 @@
-//Quest„o 1 do primeirop roteiro - Tiago Maritan
+//Quest√£o 2 do primeirop roteiro - Tiago Maritan
 //Mirele da Silva Costa
 
 #include <iostream>
