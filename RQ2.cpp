@@ -1,3 +1,4 @@
+
 //Questão 2 do primeirop roteiro - Tiago Maritan
 //Mirele da Silva Costa
 
@@ -12,6 +13,7 @@ int main()
 {
     int numero, palpite;
 
+    srand(time(NULL));
     numero = (rand() % 100) + 1; // Gera numero randomico de 1 a 100
 
     while (1){
@@ -25,10 +27,10 @@ int main()
             cout << "Muito baixo. Tente novamente " << endl;
         }else{
             cout << "Parabens. Voce adivinhou o numero " << endl;
+            break;
         }
 
     }
 
     return 0;
 }
-
