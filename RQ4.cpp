@@ -8,7 +8,7 @@
 using namespace std;
 
 float calcPerc(int votos, int cont){
-    return (votos * 100) / cont;
+    return ((float)votos * 100) / cont;
 }
 
 int main()
