@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1574705328 source:c:\users\aluno\desktop\roteiro1\src\data.cpp
+	"Data.h"
+
+1574704905 c:\users\aluno\desktop\roteiro1\include\data.h
+
+1574705426 source:c:\users\aluno\desktop\roteiro1\main.cpp
+	<iostream>
+	"Data.h"
+
