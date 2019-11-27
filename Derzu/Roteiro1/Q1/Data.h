@@ -1,4 +1,4 @@
-#ifndef DATA_H
+#ifndef DATA_H // Definição de um Macho para não criar a classe mais de uma vez
 #define DATA_H
 
 
