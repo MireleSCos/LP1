@@ -3,15 +3,23 @@
 
 using namespace std;
 
-Empregado:: Empregado(/* args */)
+Empregado:: Empregado(){
+    nome = "null";
+    sobrenome = "null";
+    salario = 0;
+}
+Empregado:: Empregado(string n, string so, float s)
 {
+    nome = n;
+    sobrenome = so;
+    salario = s;
 }
 
 void Empregado::setNome(string n){
     nome = n;
 };
-void Empregado::setSobrenome(string s){
-    sobrenome = s;
+void Empregado::setSobrenome(string so){
+    sobrenome = so;
 };
 void Empregado::setSalario(float s){
     salario = s;
@@ -31,5 +39,6 @@ float Empregado::salarioAnual(){
     return salario*12;
 }
 float Empregado::almentoSalario(){
+ 
     salario = salario + (salario * 0,10);
 }

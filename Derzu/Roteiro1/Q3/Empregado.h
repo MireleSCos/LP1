@@ -8,18 +8,18 @@ using namespace std;
 class  Empregado
 {
     private:
-        /* data */
-    public:
-
-        Empregado(/* args */);
 
         string nome;
         string sobrenome;
         float salario;
 
+    public:
+        Empregado();
+        Empregado(string n, string so, float s);       
+
         void setNome(string n);
-        void setSobrenome(string sobrenome);
-        void setSalario(float salario);
+        void setSobrenome(string so);
+        void setSalario(float s);
         
         string getNome();
         string getSobrenome();
@@ -28,10 +28,6 @@ class  Empregado
         float salarioAnual();
         float almentoSalario();
 
-    };
-
-}
-
-
+};
 
 #endif

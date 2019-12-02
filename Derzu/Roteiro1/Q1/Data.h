@@ -23,6 +23,8 @@ class Data
 
     private:
         int ano;
+        int dia;
+        int mes;
 
 };
 
