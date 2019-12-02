@@ -7,8 +7,6 @@ class Data
     public:
         Data();
         Data(int d, int m, int a);
-        int dia;
-        int mes;
 
         void setDia(int d);
         void setMes(int m);
