@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1575552593 source:c:\users\aluno\documents\q2\main.cpp
+	<iostream>
+	"Pessoa.h"
+
+1575552115 c:\users\aluno\documents\q2\include\pessoa.h
+	<string>
+
+1575552679 source:c:\users\aluno\documents\q2\src\pessoa.cpp
+	"Pessoa.h"
+	<string>
+
