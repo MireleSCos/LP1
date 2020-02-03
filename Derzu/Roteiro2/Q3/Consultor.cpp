@@ -17,7 +17,7 @@ Consultor::~Consultor()
 Consultor::Consultor(std::string matricula, std::string nome, double salario)
     :Funcionario(matricula, nome, salario)
 {
-
+    
 
 }
 
