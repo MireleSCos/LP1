@@ -11,11 +11,12 @@ private:
     /* data */
 public:
     IConta(/* args */);
+   ~IConta();
 
-    virtual void sacar(double) = 0;
-    virtual void depositar(double) = 0;
 
-    ~IConta();
+    //Métodos virtuais puros 
+    virtual float sacar(double) = 0;
+    virtual float depositar(double) = 0;
 };
 
 
